@@ -61,10 +61,27 @@ def factorial():
 
 
 if __name__ == "__main__":
-    check_even_odd()
-    # check_sign()
-    # multiplication_table()
-    # sum_to_n()
-    # count_even_numbers()
-    # factorial()
+    print("1. Check Even Odd")
+    print("2. Check Sign")
+    print("3. Multiplication Table")
+    print("4. Sum to N")
+    print("5. Count Even Numbers")
+    print("6. Factorial")
+
+    choice = input("Choose: ")
+
+    if choice == "1":
+        check_even_odd()
+    elif choice == "2":
+        check_sign()
+    elif choice == "3":
+        multiplication_table()
+    elif choice == "4":
+        sum_to_n()
+    elif choice == "5":
+        count_even_numbers()
+    elif choice == "6":
+        factorial()
+    else:
+        print("Invalid choice")
 
