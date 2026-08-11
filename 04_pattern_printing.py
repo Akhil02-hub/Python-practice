@@ -116,14 +116,41 @@ def reverse_number_triangle():
 
 
 if __name__ == "__main__":
-    square_pattern()
-    # right_triangle()
-    # inverted_right_triangle()
-    # right_aligned_triangle()
-    # full_pyramid()
-    # inverted_full_pyramid()
-    # hollow_square()
-    # number_triangle()
-    # repeated_number_triangle()
-    # continuous_number_triangle()
-    # reverse_number_triangle()
+    print("1. Square Pattern")
+    print("2. Right Triangle")
+    print("3. Inverted Right Triangle")
+    print("4. Right Aligned Triangle")
+    print("5. Full Pyramid")
+    print("6. Inverted Full Pyramid")
+    print("7. Hollow Square")
+    print("8. Number Triangle")
+    print("9. Repeated Number Triangle")
+    print("10. Continuous Number Triangle")
+    print("11. Reverse Number Triangle")
+
+    choice = input("Choose: ")
+
+    if choice == "1":
+        square_pattern()
+    elif choice == "2":
+        right_triangle()
+    elif choice == "3":
+        inverted_right_triangle()
+    elif choice == "4":
+        right_aligned_triangle()
+    elif choice == "5":
+        full_pyramid()
+    elif choice == "6":
+        inverted_full_pyramid()
+    elif choice == "7":
+        hollow_square()
+    elif choice == "8":
+        number_triangle()
+    elif choice == "9":
+        repeated_number_triangle()
+    elif choice == "10":
+        continuous_number_triangle()
+    elif choice == "11":
+        reverse_number_triangle()
+    else:
+        print("Invalid choice")
