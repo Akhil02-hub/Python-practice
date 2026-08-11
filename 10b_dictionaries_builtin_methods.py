@@ -335,18 +335,53 @@ def dictionary_crud():
 
 
 if __name__ == "__main__":
-    dictionary_crud()
-    # create_dictionary()
-    # display_dictionary()
-    # search_key()
-    # update_value()
-    # delete_key()
-    # character_frequency()
-    # word_frequency()
-    # merge_dictionary()
-    # highest_value()
-    # reverse_dictionary()
-    # student_record()
-    # inventory()
-    # voting()
-    # phone_book()
+    print("1. Create Dictionary")
+    print("2. Display Dictionary")
+    print("3. Search Key")
+    print("4. Update Value")
+    print("5. Delete Key")
+    print("6. Character Frequency")
+    print("7. Word Frequency")
+    print("8. Merge Dictionary")
+    print("9. Highest Value")
+    print("10. Reverse Dictionary")
+    print("11. Student Record")
+    print("12. Inventory")
+    print("13. Voting")
+    print("14. Phone Book")
+    print("15. Full Dictionary CRUD Menu")
+
+    choice = input("Choose: ")
+
+    if choice == "1":
+        create_dictionary()
+    elif choice == "2":
+        display_dictionary()
+    elif choice == "3":
+        search_key()
+    elif choice == "4":
+        update_value()
+    elif choice == "5":
+        delete_key()
+    elif choice == "6":
+        character_frequency()
+    elif choice == "7":
+        word_frequency()
+    elif choice == "8":
+        merge_dictionary()
+    elif choice == "9":
+        highest_value()
+    elif choice == "10":
+        reverse_dictionary()
+    elif choice == "11":
+        student_record()
+    elif choice == "12":
+        inventory()
+    elif choice == "13":
+        voting()
+    elif choice == "14":
+        phone_book()
+    elif choice == "15":
+        dictionary_crud()
+    else:
+        print("Invalid choice")
