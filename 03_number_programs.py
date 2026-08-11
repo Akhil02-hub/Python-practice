@@ -108,10 +108,29 @@ def strong_number():
 
 
 if __name__ == "__main__":
-    is_prime()
-    # reverse_number()
-    # count_digits()
-    # palindrome_number()
-    # armstrong_number()
-    # perfect_number()
-    # strong_number()
+    print("1. Is Prime")
+    print("2. Reverse Number")
+    print("3. Count Digits")
+    print("4. Palindrome Number")
+    print("5. Armstrong Number")
+    print("6. Perfect Number")
+    print("7. Strong Number")
+
+    choice = input("Choose: ")
+
+    if choice == "1":
+        is_prime()
+    elif choice == "2":
+        reverse_number()
+    elif choice == "3":
+        count_digits()
+    elif choice == "4":
+        palindrome_number()
+    elif choice == "5":
+        armstrong_number()
+    elif choice == "6":
+        perfect_number()
+    elif choice == "7":
+        strong_number()
+    else:
+        print("Invalid choice")
