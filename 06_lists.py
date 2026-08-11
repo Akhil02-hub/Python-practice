@@ -163,19 +163,53 @@ def is_palindrome():
 
 
 if __name__ == "__main__":
-    print_list()
-    reverse_list()
-    print()
-    remove_duplicates()
-    merge_lists()
-    # input_list()
-    # traverse_list()
-    # list_sum()
-    # find_largest()
-    # find_smallest()
-    # count_even()
-    # count_odd()
-    # search_element()
-    # count_occurrences()
-    # second_largest()
-    # is_palindrome()
+    print("1. Print List")
+    print("2. Reverse List")
+    print("3. Remove Duplicates")
+    print("4. Merge Lists")
+    print("5. Input List")
+    print("6. Traverse List")
+    print("7. List Sum")
+    print("8. Find Largest")
+    print("9. Find Smallest")
+    print("10. Count Even")
+    print("11. Count Odd")
+    print("12. Search Element")
+    print("13. Count Occurrences")
+    print("14. Second Largest")
+    print("15. Is Palindrome")
+
+    choice = input("Choose: ")
+
+    if choice == "1":
+        print_list()
+    elif choice == "2":
+        reverse_list()
+    elif choice == "3":
+        remove_duplicates()
+    elif choice == "4":
+        merge_lists()
+    elif choice == "5":
+        input_list()
+    elif choice == "6":
+        traverse_list()
+    elif choice == "7":
+        list_sum()
+    elif choice == "8":
+        find_largest()
+    elif choice == "9":
+        find_smallest()
+    elif choice == "10":
+        count_even()
+    elif choice == "11":
+        count_odd()
+    elif choice == "12":
+        search_element()
+    elif choice == "13":
+        count_occurrences()
+    elif choice == "14":
+        second_largest()
+    elif choice == "15":
+        is_palindrome()
+    else:
+        print("Invalid choice")
