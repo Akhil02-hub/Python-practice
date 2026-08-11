@@ -209,18 +209,53 @@ def calculator():
 
 
 if __name__ == "__main__":
-    calculator()
-    # zero_division_error()
-    # value_error()
-    # index_error()
-    # key_error()
-    # file_not_found_error()
-    # division_with_else()
-    # multiple_exceptions()
-    # exception_else_finally()
-    # check_age()
-    # password_check()
-    # bank_withdrawal()
-    # file_opener()
-    # marks_validator()
-    # safe_list_access()
+    print("1. Calculator")
+    print("2. Zero Division Error")
+    print("3. Value Error")
+    print("4. Index Error")
+    print("5. Key Error")
+    print("6. File Not Found Error")
+    print("7. Division with Else")
+    print("8. Multiple Exceptions")
+    print("9. Exception Else Finally")
+    print("10. Check Age")
+    print("11. Password Check")
+    print("12. Bank Withdrawal")
+    print("13. File Opener")
+    print("14. Marks Validator")
+    print("15. Safe List Access")
+
+    choice = input("Choose: ")
+
+    if choice == "1":
+        calculator()
+    elif choice == "2":
+        zero_division_error()
+    elif choice == "3":
+        value_error()
+    elif choice == "4":
+        index_error()
+    elif choice == "5":
+        key_error()
+    elif choice == "6":
+        file_not_found_error()
+    elif choice == "7":
+        division_with_else()
+    elif choice == "8":
+        multiple_exceptions()
+    elif choice == "9":
+        exception_else_finally()
+    elif choice == "10":
+        check_age()
+    elif choice == "11":
+        password_check()
+    elif choice == "12":
+        bank_withdrawal()
+    elif choice == "13":
+        file_opener()
+    elif choice == "14":
+        marks_validator()
+    elif choice == "15":
+        safe_list_access()
+    else:
+        print("Invalid choice")
