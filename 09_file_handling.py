@@ -285,18 +285,53 @@ def notes_app():
 
 
 if __name__ == "__main__":
-    notes_app()
-    # write_file()
-    # read_file()
-    # append_file()
-    # count_characters()
-    # count_lines()
-    # count_words()
-    # copy_file()
-    # search_word()
-    # replace_word()
-    # longest_line()
-    # remove_duplicate_lines()
-    # reverse_file()
-    # merge_files()
-    # student_system()
+    print("1. Write File")
+    print("2. Read File")
+    print("3. Append File")
+    print("4. Count Characters")
+    print("5. Count Lines")
+    print("6. Count Words")
+    print("7. Copy File")
+    print("8. Search Word")
+    print("9. Replace Word")
+    print("10. Longest Line")
+    print("11. Remove Duplicate Lines")
+    print("12. Reverse File")
+    print("13. Merge Files")
+    print("14. Student System")
+    print("15. Notes App")
+
+    choice = input("Choose: ")
+
+    if choice == "1":
+        write_file()
+    elif choice == "2":
+        read_file()
+    elif choice == "3":
+        append_file()
+    elif choice == "4":
+        count_characters()
+    elif choice == "5":
+        count_lines()
+    elif choice == "6":
+        count_words()
+    elif choice == "7":
+        copy_file()
+    elif choice == "8":
+        search_word()
+    elif choice == "9":
+        replace_word()
+    elif choice == "10":
+        longest_line()
+    elif choice == "11":
+        remove_duplicate_lines()
+    elif choice == "12":
+        reverse_file()
+    elif choice == "13":
+        merge_files()
+    elif choice == "14":
+        student_system()
+    elif choice == "15":
+        notes_app()
+    else:
+        print("Invalid choice")
